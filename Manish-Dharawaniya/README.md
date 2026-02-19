@@ -3,34 +3,64 @@
 ## 🚀 Live Demo
 https://smart-blog-editor-mdr.vercel.app/
 
-## 📂 GitHub Repo
+## 📂 GitHub Repository
 https://github.com/MDR09/Smart-Blog-Editor
 
+---
+
 ## 🛠 Tech Stack
-React, Node.js, Express, MongoDB
 
-## ⚙ Setup Instructions
+- React (Frontend)
+- FastAPI (Backend)
+- MongoDB
+- JWT Authentication
+- Google Gemini API
 
-Backend Setup
-# Navigate to backend directory
+---
+
+# ⚙ Setup Instructions
+
+## 🔹 Backend Setup
+
+Navigate to backend directory:
+
+```bash
 cd backend
+```
 
-# Create virtual environment
+Create virtual environment:
+
+```bash
 python -m venv venv
+```
 
-# Activate virtual environment
-# On Windows:
+Activate virtual environment:
+
+Windows:
+```bash
 venv\Scripts\activate
-# On macOS/Linux:
+```
+
+macOS/Linux:
+```bash
 source venv/bin/activate
+```
 
-# Install dependencies
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-# Create .env file
+Create `.env` file:
+
+```bash
 cp .env.example .env
-Configure backend/.env:
+```
 
+Configure `backend/.env`:
+
+```env
 # MongoDB Configuration
 MONGODB_URL=mongodb+srv://username:password@cluster0.mongodb.net/?appName=Cluster0
 DATABASE_NAME=smart_blog_editor
@@ -45,25 +75,58 @@ GEMINI_API_KEY=your-gemini-api-key-here
 
 # Environment
 ENVIRONMENT=development
-Start the backend server:
+```
 
+Start backend server:
+
+```bash
 uvicorn app.main:app --reload --port 8000
-Backend will run at: http://localhost:8000
-API Documentation: http://localhost:8000/docs
+```
 
-Frontend Setup
-# Navigate to frontend directory (from project root)
+Backend runs at:
+http://localhost:8000
+
+API Docs:
+http://localhost:8000/docs
+
+---
+
+## 🔹 Frontend Setup
+
+Navigate to frontend directory:
+
+```bash
 cd frontend
+```
 
-# Install dependencies
+Install dependencies:
+
+```bash
 npm install
+```
 
-# Create .env file
+Create `.env` file:
+
+```bash
 cp .env.example .env
-Configure frontend/.env:
+```
 
+Configure `frontend/.env`:
+
+```env
 VITE_API_URL=http://localhost:8000
-Start the development server:
+```
 
+Start development server:
+
+```bash
 npm run dev
+```
 
+---
+
+## 👨‍💻 Author
+
+**Manish Dharawaniya**  
+GitHub: https://github.com/MDR09  
+Live Project: https://smart-blog-editor-mdr.vercel.app/
