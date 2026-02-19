@@ -130,3 +130,4 @@ npm run dev
 **Manish Dharawaniya**  
 GitHub: https://github.com/MDR09  
 Live Project: https://smart-blog-editor-mdr.vercel.app/
+Email : mdry2102@gmail.com
